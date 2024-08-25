@@ -10,4 +10,5 @@ $$\min_{\boldsymbol{\beta}^r}  \quad \boldsymbol{\beta}^{rT}\mathbf{M}^r\boldsym
 
 
 where $\mathbf{M}^r \in \mathbb{R}^{(\bar{t}+1) \times (\bar{t}+1)}$ with 
+
 $\mathbf{M}_{ij}^r = tr({\mathbf{Q}_{i-1}^r\mathbf{P}^{rT}\mathbf{P}^r\mathbf{Q}_{j-1}^r})$, and $\mathbf{s}^r \in \mathbb{R}^{(\bar{t}+1) \times 1}$ with $s^r_t = tr(\mathbf{Q}_{t-1}^r\mathbf{P}^{rT}{\mathbf{Z}_{o^r}}{\mathbf{C}}\mathbf{W}^{rT})$. Eq.~\eqref{udbeta_1} can be readily solved by off-the-shelf quadratic programming solvers.
