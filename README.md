@@ -4,7 +4,7 @@ Code for ACM MM'24 paper "Fast and Scalable Incomplete Multi-View Clustering wit
 We noticed some misstatements in chapter 3.5.4 of the paper, and we write the correct statement below. 
 
 ### update $\boldsymbol{\beta}^r$
-The rest problem w.r.t. $\boldsymbol{\beta}^r \in \mathbb{R}^{(\bar{t}+1) \times 1}$ can be written as $\mathbf{Q}_ {i-1}^r$:
+The rest problem w.r.t. $\boldsymbol{\beta}^r \in \mathbb{R}^{(\bar{t}+1) \times 1}$ can be written as:
 
 $$\min_{\boldsymbol{\beta}^r}  \quad \boldsymbol{\beta}^{rT}\mathbf{M}^r\boldsymbol{\beta}^r -2 \boldsymbol{\beta}^{rT}\mathbf{s}^r \quad st.\quad \boldsymbol{\beta}^{rT}\mathbf{1}=1, 0 \leq \beta^r_ t \leq 1, \quad (15)$$
 
