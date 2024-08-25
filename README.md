@@ -3,3 +3,4 @@ Code for ACM MM'24 paper "Fast and Scalable Incomplete Multi-View Clustering wit
 ## paper adjustment 
 We noticed some misstatements in chapter 3.5.4 of the paper, and we write the correct statement below. 
 
+### update $\boldsymbol{\beta}^r$
