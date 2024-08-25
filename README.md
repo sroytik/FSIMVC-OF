@@ -9,4 +9,5 @@ The rest problem w.r.t. $\boldsymbol{\beta}^r \in \mathbb{R}^{(\bar{t}+1) \times
 $$\min_{\boldsymbol{\beta}^r}  \quad \boldsymbol{\beta}^{rT}\mathbf{M}^r\boldsymbol{\beta}^r -2 \boldsymbol{\beta}^{rT}\mathbf{s}^r \quad st.\quad \boldsymbol{\beta}^{rT}\mathbf{1}=1, 0 \leq \beta^r_t \leq 1, $$
 
 
-where $\mathbf{M}^r \in \mathbb{R}^{(\bar{t}+1) \times (\bar{t}+1)}$ with $\mathbf{M}_ij^r$ = $tr({\mathbf{Q}_{i-1}^r\mathbf{P}^{rT}\mathbf{P}^r\mathbf{Q}_{j-1}^r})$, and $\mathbf{s}^r \in \mathbb{R}^{(\bar{t}+1) \times 1}$ with $s^r_t = tr(\mathbf{Q}_{t-1}^r\mathbf{P}^{rT}{\mathbf{Z}_{o^r}}{\mathbf{C}}\mathbf{W}^{rT})$. Eq.~\eqref{udbeta_1} can be readily solved by off-the-shelf quadratic programming solvers.
+where $\mathbf{M}^r \in \mathbb{R}^{(\bar{t}+1) \times (\bar{t}+1)}$ with 
+$\mathbf{M}_{ij}^r = tr({\mathbf{Q}_{i-1}^r\mathbf{P}^{rT}\mathbf{P}^r\mathbf{Q}_{j-1}^r})$, and $\mathbf{s}^r \in \mathbb{R}^{(\bar{t}+1) \times 1}$ with $s^r_t = tr(\mathbf{Q}_{t-1}^r\mathbf{P}^{rT}{\mathbf{Z}_{o^r}}{\mathbf{C}}\mathbf{W}^{rT})$. Eq.~\eqref{udbeta_1} can be readily solved by off-the-shelf quadratic programming solvers.
